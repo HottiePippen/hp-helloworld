@@ -1,20 +1,13 @@
 {
-  "name": "hp-helloworld",
-  "version": "0.0.0",
-  "description": "First Heroku app",
-  "main": "web.js",
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [
-    "helloworld",
-    "heroku"
-  ],
-  "author": "James Kohli",
-  "license": "ISC",
   "dependencies": {
-    "logfmt": "^0.21.0",
-    "express": "^3.4.8",
+    "express": "3.4.8",
+    "jade": "*",
     "redis": "^0.10.1"
   }
 }
